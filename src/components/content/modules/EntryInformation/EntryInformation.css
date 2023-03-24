@@ -1,0 +1,41 @@
+.Entry-Information {
+    background-color: var(--color-secondary);
+    padding: 10px;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 1000;
+    box-shadow: var(--box-shadow-default);
+    color: var(--color-text);
+    border-radius: var(--borderradius-small);
+    overflow: hidden;
+    display: none;
+    justify-content: center;
+    align-items: top;
+    user-select: none;
+}
+
+.Entry-Information-Show {
+    display: flex;
+    opacity: 0;
+    animation-name: showentryinformation;
+    animation-duration: var(--transition-default);
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
+
+.Entry-Information .icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--color-text);
+}
+
+.Entry-Information-Text {
+    padding-left: 10px;
+    max-width: 160px;
+}
+
+@keyframes showentryinformation {
+    0% {opacity: 0;}
+    100% {opacity: 1}
+}

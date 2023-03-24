@@ -1,0 +1,40 @@
+@import './components/assets/css/themes/theme.css';
+
+.App {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-background);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--color-text);
+  display: none;
+}
+
+.App-Container {
+  padding: 20px;
+  height: calc(100vh - 70px);
+  padding-top: 50px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

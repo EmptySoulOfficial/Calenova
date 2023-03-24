@@ -1,0 +1,88 @@
+
+.Days {
+    width: auto;
+    min-height: 140px;
+    margin:0px;
+    border: 1px solid var(--color-tertiary);
+    /* background-color: #073a4a; */
+    background-color: var(--color-tertiary);
+    transition: 0.3s;
+}
+
+.Days-Head {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 22px;
+}
+
+.DateNumber {
+    color: var(--color-text);   
+    font-weight: bold;
+    font-size: 30px;
+    user-select: none;
+    opacity: var(--opacity-nofocuse);
+}
+
+.Days-MainContainer {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Days-CurrentMonth{
+    font-size: 13px;
+    width: -webkit-fill-available;
+    text-align: left;
+    padding: 0px 10px;
+    color: var(--color-text);
+    user-select:none;
+}
+
+.CurrentDay {
+    background-color: var(--color-primary);
+}
+
+.CurrentDay .DateNumber {
+    color: var(--color-text);
+    opacity: 1;
+}
+
+.CurrentDay .Days-CurrentMonth {
+    opacity:0;
+}
+  
+.selected-today .DateNumber {
+    color: var(--color-highlight);
+    font-weight: bold;
+}
+
+.selected-today {
+    border: 1px solid var(--color-highlight);
+}
+
+.selected .DateNumber {
+    color: var(--color-text-light);
+    font-weight: bold;
+    transition: var(--transition-default);
+}
+
+.selected .Days-Head {
+    font-weight: bold;
+    transition: var(--transition-default);
+}
+
+.icon-addsmooth{
+    fill: var(--color-text);
+    transition: var(--transition-default);
+}
+
+.icon-addsmooth:hover{
+    cursor: pointer;
+    fill: var(--color-highlight);
+}

@@ -1,0 +1,92 @@
+{
+    "entries" : 
+    {
+          "2" :{
+            "20": [
+                {
+
+                    "userId": 1313,
+                    "entryStatus": "Vacation",
+                    "entryInformation": "Bin im Urlaub (bis 22.03)"
+                },
+                {
+
+                    "userId": 2,
+                    "entryStatus": "Ill",
+                    "entryInformation": "Heute Krank"
+                },
+                {
+
+                  "userId": 3,
+                  "entryStatus": "Absent",
+                  "entryInformation": "von 12-13 Uhr bei einem Artzt Termin"
+              },
+              {
+
+                "userId": 4,
+                "entryStatus": "Training",
+                "entryInformation": "Fortbildung"
+            },
+            {
+
+              "userId": 777,
+              "entryStatus": "Ill",
+              "entryInformation": "Heute Krank"
+          }
+            ],
+            "21": [
+              {
+
+                  "userId": 1313,
+                  "entryStatus": "Vacation",
+                  "entryInformation": "Bin im Urlaub (bis 22.03)"
+              }
+          ],
+          "22": [
+            {
+
+                "userId": 1313,
+                "entryStatus": "Vacation",
+                "entryInformation": "Bin im Urlaub (bis 22.03)"
+            }
+          ],
+          "30": [
+            {
+
+                "userId": 777,
+                "entryStatus": "Training",
+                "entryInformation": "Auf eine krasse Weiterbildung"
+            }
+          ]
+        }
+    },
+    "employees": {
+      "1313": {
+        "firstName": "Steve",
+        "lastName": "Pietrowski",
+        "email": "spietrowski@test.com"
+      },
+      "2": {
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "email": "mMustermann@test.com"
+      },
+      "777": {
+        "firstName": "Johannes",
+        "lastName": "Hügel",
+        "email": "jHuegel@test.com"
+      },
+      "3": {
+        "firstName": "Neuer",
+        "lastName": "Benutzer",
+        "email": "nBenutzer@test.com"
+      },
+      "4": {
+        "firstName": "Calendar",
+        "lastName": "User",
+        "email": "cUser@test.com"
+      }
+    }
+    
+    
+}
