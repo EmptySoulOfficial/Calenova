@@ -1,5 +1,5 @@
 import './EntryInformation.css'
-import Icon from '../../../assets/js/Icon/icon.asset'
+import Icon from '../../../assets/js/Icon/Icon'
 import { useRef } from 'react';
 
 function EntryInformation ({information,mousePos, showEntryInformation}) {

@@ -1,5 +1,5 @@
 import './Entry.css'
-import Icon from '../../../assets/js/Icon/icon.asset';
+import Icon from '../../../assets/js/Icon/Icon';
 import { useMemo } from 'react';
 import { emplObj } from '../../../assets/js/EmployeeData/EmployeeData';
 

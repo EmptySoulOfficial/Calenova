@@ -1,5 +1,5 @@
 import './ButtonAddStatus.css'
-import Icon from '../../../../assets/js/Icon/icon.asset'
+import Icon from '../../../../assets/js/Icon/Icon'
 
 function ButtonAddStatus({label, icon, index}) {
 

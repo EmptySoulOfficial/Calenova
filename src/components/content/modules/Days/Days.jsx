@@ -1,6 +1,6 @@
 import "./Days.css";
 import { getLang, getLangVar } from "../../../assets/js/ELanguage/ELanguage";
-import Icon from "../../../assets/js/Icon/icon.asset";
+import Icon from "../../../assets/js/Icon/Icon";
 import Entry from "../Entry/Entry";
 import { getMonths } from "../../../assets/js/Months/Months.asset";
 import { useMemo, useState } from "react";
@@ -23,7 +23,7 @@ const Days = ({ day, changeCurrentDay, setshowAddBox, setcontexmenuitems, setsho
   const currentDays = useMemo(() => {
     const _currentDays = [];
 
-    for (let _day = 0; _day < 42; _day++) {
+    for (let _day = 0; _day < 360; _day++) {
       if (_day === 0 && weekdayOfFirstDay === 0) {
         firstDayOfMonth.setDate(firstDayOfMonth.getDate() - 7);
       } else if (_day === 0) {

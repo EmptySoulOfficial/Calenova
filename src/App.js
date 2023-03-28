@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import Calendar from './components/content/Calendar/Calendar';
+import SideBar from './components/content/modules/SideBar/SideBar';
 
 import { getLang } from './components/assets/js/ELanguage/ELanguage.js'
 import { useMemo, memo, useState, useEffect } from 'react';
@@ -58,8 +59,7 @@ function App() {
         <div className="App-Container">
           <ContexMenu mousePos={mousePos} contexmenuItems={contexmenuItems} showContexMenu={showcontexmenu}/>
           <EntryInformation mousePos={mousePos} showEntryInformation={showEntryInformation} information={employeeInformation}/>
-
-          <Calendar setcontexmenuItems={setcontexmenuItems} setshowEntryInformation={setshowEntryInformation} setEmployeeInformation={setEmployeeInformation} />
+            <Calendar setcontexmenuItems={setcontexmenuItems} setshowEntryInformation={setshowEntryInformation} setEmployeeInformation={setEmployeeInformation} />#
         </div>
       </div>
   );

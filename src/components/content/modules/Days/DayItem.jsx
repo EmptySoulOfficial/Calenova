@@ -1,6 +1,6 @@
 import "./Days.css";
 import { getLang, getLangVar } from "../../../assets/js/ELanguage/ELanguage";
-import Icon from "../../../assets/js/Icon/icon.asset";
+import Icon from "../../../assets/js/Icon/Icon";
 import Entry from "../Entry/Entry";
 import { getMonths } from "../../../assets/js/Months/Months.asset";
 import { useMemo, memo } from "react";

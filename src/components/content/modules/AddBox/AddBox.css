@@ -69,14 +69,14 @@
     outline: 2px solid var(--color-highlight);
 }
 
-.Button-Close-Dialog .icon{
+.Button-Close-Dialog .Icon{
     width: 16px;
     height: 16px;
     cursor: pointer;
     transition: var(transition-default);
 }
 
-.Button-Close-Dialog:hover .icon{
+.Button-Close-Dialog:hover .Icon{
     width: 16px;
     height: 16px;
     fill: var(--color-lipstick);

@@ -1,23 +1,31 @@
 :root {
+    /* Basic Colors */
     --color-transparent: #00000000;
     --color-black: #000;
+    --color-white: #fff;
     --color-angel-white: #fefefe;
-    
+    /* Deep Ocean */
     --color-oceans-background: #14333c;
     --color-ocean-green: #073a4a;
     --color-ocean-ground: #0b2936;
     --color-ocean-pale-blue: #46798f;
     --color-ocean-dark-blue: #1e4e66;
     --color-ocean-forgotten-blue: #104450;
-
+    /* --highlights */
     --color-heart-green: #57f2be;
-
-    --color-darker: #333333;
-
     --color-uv: #7457ff;
     --color-citrus: #fdff6e;
     --color-sky: #4999ff;
     --color-lipstick: #ff497c;
     --color-carrot: #ff9049;
+
+    /* Trueinnovation */
+    --color-truewhite: #F1F5F9;
+    --color-slate900: #0F172A;
+    --color-slate800: #1E293B;
+    --color-slate700: #334155;
+    --color-trueblue-light: #0499CB;
+    --color-trueblue-dark: #003399;
+
  
 }

@@ -1,8 +1,7 @@
 @import '../../index.css';
 
 :root {
-    --color-darker: #333333;
-
+    /* Main Colors */
     --color-background: var(--color-oceans-background);
     --color-primary: var(--color-ocean-green);
     --color-secondary: var(--color-ocean-ground);
@@ -14,7 +13,7 @@
     --color-placeholder: var(--color-oceans-background);
     --color-text: var(--color-ocean-pale-blue);
     --color-text-light: var(--color-angel-white);
-
+    /* Status Colors */
     --color-homeoffice: var(--color-uv);
     --color-vacation: var(--color-citrus);
     --color-training: var(--color-sky);
@@ -52,8 +51,8 @@ button, a {
     user-select: none;
 }
 
-.icon {
-    fill: white;
+.Icon {
+    fill: var(--color-text-light);
     transition: var(--transition-default);
 }
 

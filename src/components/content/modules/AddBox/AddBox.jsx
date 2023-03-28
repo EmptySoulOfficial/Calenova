@@ -1,6 +1,6 @@
 import './AddBox.css'
 import { useState } from 'react';
-import Icon from '../../../assets/js/Icon/icon.asset.jsx'
+import Icon from '../../../assets/js/Icon/Icon.jsx'
 import {getLang} from '../../../assets/js/ELanguage/ELanguage'
 import ButtonAddStatus from '../../molecules/buttons/ButtonAddStatus/ButtonAddStatus';
 

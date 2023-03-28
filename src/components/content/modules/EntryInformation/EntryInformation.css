@@ -24,7 +24,7 @@
     animation-delay: 0.8s;
 }
 
-.Entry-Information .icon {
+.Entry-Information .Icon {
     width: 20px;
     height: 20px;
     fill: var(--color-text);

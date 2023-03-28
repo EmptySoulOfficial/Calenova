@@ -2,9 +2,10 @@ import React, { Component, useMemo, useState } from "react";
 import "./Calendar.css";
 import Days from "../modules/Days/Days";
 import { getLang, getLangVar } from "../../assets/js/ELanguage/ELanguage";
-import Icon from "../../assets/js/Icon/icon.asset";
+import Icon from "../../assets/js/Icon/Icon";
 import AddBox from "../modules/AddBox/AddBox";
 import { getMonths } from "../../assets/js/Months/Months.asset";
+import SideBar from "../modules/SideBar/SideBar";
 
 const Calendar = ({setcontexmenuItems,setshowEntryInformation, setEmployeeInformation}) => {
   const eLang = useMemo(() => getLang(), []);
@@ -41,11 +42,11 @@ const Calendar = ({setcontexmenuItems,setshowEntryInformation, setEmployeeInform
   const [showAddBox, setshowAddBox] = useState(false);
 
   return (
-    <div className="MainWindow-Calendar">
+    <div className="Calendar">
       <AddBox setshowAddBox={setshowAddBox} showAddBox={showAddBox}/>
-      <div className="MainWindow-Headline-Container">
+      <div className="Calendar-Headline">
         <p className="Calendar-Year-Label">{currentDate.getFullYear()}</p>
-        <div className="MainWindow-Month-Container">
+        <div className="Month-Container">
           <button className="Button-Month-Back" onClick={handleSetPreviousDay}>
             <Icon name="backarrow_smooth" size="16" />
           </button>
@@ -66,20 +67,36 @@ const Calendar = ({setcontexmenuItems,setshowEntryInformation, setEmployeeInform
           </button>
         </div>
       </div>
-      <div className="MainWindow-Calendar-Container">
-        <div className="MainWindow-Calendar-Week-Container">
-          {weekdays.map((w) => (
-            <p key={w} className="Day-Label">
-              {w}
-            </p>
-          ))}
-        </div>
-        <div className="MainWindow-Calendar-Days-Container">
-          <div className="MainWindow-Calendar-Days">
-          <Days setEmployeeInformation={setEmployeeInformation} day={currentDate} changeCurrentDay={changeCurrentDay} setshowAddBox={setshowAddBox} setcontexmenuItems={setcontexmenuItems} setshowEntryInformation={setshowEntryInformation}/>
+      <div className="Calendar-Container">
+        <div className="Calendar-Content-Container">
+          <div className="Calendar-Week-Container">
+            {months.map((w) => (
+              <p key={w} className="Day-Label">
+                {w}
+              </p>
+            ))}
           </div>
+          <div className="Calendar-Month-Container">
+          {
+            months.map((m) => (
+              <div className="Month-Item">
+              <div className="Days">
+              </div>
+            </div>
+            ))
+          }
+              
+          </div>
+          {/* <div className="Calendar-Days-Container">
+          {/*   <div className="Calendar-Days">
+          {/*   <Days setEmployeeInformation={setEmployeeInformation} day={currentDate} changeCurrentDay={changeCurrentDay} setshowAddBox={setshowAddBox} setcontexmenuItems={setcontexmenuItems} setshowEntryInformation={setshowEntryInformation}/>
+          {/*   </div>
+          {/* </div>
+            */}
         </div>
+        <SideBar />
       </div>
+      
     </div>
   );
 };

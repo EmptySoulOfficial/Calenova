@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-.Button-AddStatus .icon {
+.Button-AddStatus .Icon {
     width: 50px;
     height: 50px;
     fill: var(--color-text);
@@ -24,7 +24,7 @@
     color: var(--color-text-light);
 }
 
-.Button-AddStatus:hover .icon{
+.Button-AddStatus:hover .Icon{
     fill: var(--color-text-light);
 }
 
@@ -38,23 +38,23 @@
     user-select: none;
 }
 
-.Button-AddStatus-Object--active #button-addstatus_0 .icon{
+.Button-AddStatus-Object--active #button-addstatus_0 .Icon{
     fill: var(--color-homeoffice);
 }
 
-.Button-AddStatus-Object--active #button-addstatus_1 .icon{
+.Button-AddStatus-Object--active #button-addstatus_1 .Icon{
     fill: var(--color-vacation);
 }
 
 
-.Button-AddStatus-Object--active #button-addstatus_2 .icon{
+.Button-AddStatus-Object--active #button-addstatus_2 .Icon{
     fill: var(--color-training);
 }
 
-.Button-AddStatus-Object--active #button-addstatus_3 .icon{
+.Button-AddStatus-Object--active #button-addstatus_3 .Icon{
     fill: var(--color-ill);
 }
 
-.Button-AddStatus-Object--active #button-addstatus_4 .icon{
+.Button-AddStatus-Object--active #button-addstatus_4 .Icon{
     fill: var(--color-carrot);
 }

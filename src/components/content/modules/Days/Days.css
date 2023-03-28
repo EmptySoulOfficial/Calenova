@@ -1,7 +1,7 @@
 
 .Days {
     width: auto;
-    min-height: 140px;
+    min-height: 100px;
     margin:0px;
     border: 1px solid var(--color-tertiary);
     /* background-color: #073a4a; */
@@ -77,12 +77,12 @@
     transition: var(--transition-default);
 }
 
-.icon-addsmooth{
+.Icon-addsmooth{
     fill: var(--color-text);
     transition: var(--transition-default);
 }
 
-.icon-addsmooth:hover{
+.Icon-addsmooth:hover{
     cursor: pointer;
     fill: var(--color-highlight);
 }

@@ -48,7 +48,7 @@
     background-color: var(--color-vacation);
 }
 
-.Entry-Status-Vacation .icon{
+.Entry-Status-Vacation .Icon{
     fill: var(--color-black);
 }
 
@@ -60,7 +60,7 @@
     background-color: var(--color-ill);
 }
 
-.Entry-Status-Ill .icon{
+.Entry-Status-Ill .Icon{
     width: 20px;
     height: 20px;
 }
